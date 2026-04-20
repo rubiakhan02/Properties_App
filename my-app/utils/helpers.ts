@@ -5,6 +5,7 @@ export const formatPrice = (price: number): string => {
   }).format(price);
 };
 
+
 export const truncateText = (text: string, length: number): string => {
   return text.length > length ? text.substring(0, length) + '...' : text;
 };
